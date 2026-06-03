@@ -20,11 +20,11 @@ st.set_page_config(
 
 @st.cache_resource
 def load_artifacts():
-    with open('../src/model.pkl', 'rb') as f:
+    with open('src/model.pkl', 'rb') as f:
         model = pickle.load(f)
-    with open('../src/scaler.pkl', 'rb') as f:
+    with open('src/scaler.pkl', 'rb') as f:
         scaler = pickle.load(f)
-    with open('../src/feature_columns.pkl', 'rb') as f:
+    with open('src/feature_columns.pkl', 'rb') as f:
         feature_columns = pickle.load(f)
     return model, scaler, feature_columns
 

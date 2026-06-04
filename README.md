@@ -21,17 +21,17 @@ The goal of this project is to:
 
 churn-prediction/
 │
-├── data/                        # Charts and processed outputs
+├── data/                        
 ├── notebooks/
-│   ├── 01_eda.ipynb             # Exploratory Data Analysis
-│   ├── 02_preprocessing.ipynb  # Cleaning & Feature Engineering
-│   └── 03_modeling.ipynb       # Model Training & Evaluation
+│   ├── 01_eda.ipynb             
+│   ├── 02_preprocessing.ipynb  
+│   └── 03_modeling.ipynb       
 ├── src/
-│   ├── model.pkl                # Saved best model
-│   ├── scaler.pkl               # Saved scaler
-│   └── feature_columns.pkl     # Saved feature alignment
+│   ├── model.pkl                
+│   ├── scaler.pkl               
+│   └── feature_columns.pkl     
 ├── app/
-│   └── streamlit_app.py        # Interactive web application
+│   └── streamlit_app.py        
 ├── requirements.txt
 └── README.md
 

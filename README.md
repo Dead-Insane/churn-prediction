@@ -19,20 +19,20 @@ The goal of this project is to:
 
 ## 📁 Project Structure
 
-churn-prediction/
-│
-├── data/                        
-├── notebooks/
+churn-prediction/                                                           
+│                                                                                                                                         
+├── data/                                                                                                                              
+├── notebooks/                                                                                 
 │   ├── 01_eda.ipynb             
 │   ├── 02_preprocessing.ipynb  
-│   └── 03_modeling.ipynb       
-├── src/
+│   └── 03_modeling.ipynb                                                                                                  
+├── src/                                                                                                           
 │   ├── model.pkl                
 │   ├── scaler.pkl               
-│   └── feature_columns.pkl     
-├── app/
+│   └── feature_columns.pkl                                                           
+├── app/                                              
 │   └── streamlit_app.py        
-├── requirements.txt
+├── requirements.txt                             
 └── README.md
 
 ---
